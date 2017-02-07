@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ImportResource;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan
+@ImportResource({"classpath:spring-mybatis.xml"})
 public class Application {
 
 	public static void main(String[] args) {
